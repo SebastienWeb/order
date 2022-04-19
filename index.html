@@ -19,11 +19,15 @@
     <title>Order</title>
   </head>
   <body>
-    <div class="banner"></div>
-    <section>
-      <div class="card">
-        <img src="./images/illustration-hero.svg" alt="hero banner" />
-        <figcaption>
+    <div role="banner" class="banner"></div>
+    <main role="main">
+      <article role="article" class="card">
+        <img
+          role="img"
+          src="./images/illustration-hero.svg"
+          alt="hero banner"
+        />
+        <section role="region">
           <h1>Order Summary</h1>
           <p class="details">
             You can now listen to million of songs, audiobooks, and podcasts on
@@ -42,10 +46,10 @@
             </div>
           </div>
           <button>Proceed to Payment</button>
-          <h4>Cancel Order</h4>
-        </figcaption>
-      </div>
-    </section>
+          <h3>Cancel Order</h3>
+        </section>
+      </article>
+    </main>
     <script
       src="https://kit.fontawesome.com/86f598f60e.js"
       crossorigin="anonymous"
